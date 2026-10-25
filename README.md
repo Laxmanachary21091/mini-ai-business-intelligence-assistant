@@ -53,7 +53,7 @@ The system is designed to prioritize **accuracy, explainability, data quality, a
               +--------+--------+
               |                 |
          Gemini REST API    Rule-Based
-         (Optional AI)       Fallback
+         (-----------)       Fallback
               |                 |
               +--------+--------+
                        |
@@ -381,6 +381,7 @@ AI coding tools were used to support implementation and debugging:
 
 - **OpenAI Codex:** Assisted with code generation, implementation, and development tasks.
 - **VS Code Agent:** Assisted with project editing, integration, and troubleshooting.
+- **GPT-6 luna**
 
 The implementation was organized around separate modules for ingestion, analytics, question interpretation, API handling, and presentation.
 
@@ -423,4 +424,4 @@ This repository is intended to contain:
 
 ---
 
-**Built as part of the RSG AI-Assisted Development Challenge — Build a Mini AI Business Intelligence Assistant.**
+
